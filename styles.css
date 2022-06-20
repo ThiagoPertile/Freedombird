@@ -1,0 +1,105 @@
+:root {
+    --bg-color-card: rgba(217, 217, 217, 0.6);
+    --botao-color: #7B5A7A;
+    --cinza: #3D3C3C;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* Imagem de fundo */
+.background__img{
+    background-image: url("img/Rectangle\ 3.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.card-background {
+    height: 100vh;
+    width: 33%;
+    min-width: 640px;
+    background-color: var(--bg-color-card);
+    background-position: right;
+}
+
+.login-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3rem;
+}
+.login-conteudo__logo {
+    width: 350px;
+    height: 250px;
+    align-self: center;
+}
+
+.formularios {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+
+
+.input__box {
+    height: 64px;
+    width: 457px;
+    margin-top: .5rem;
+    border: transparent;
+    border-radius: 50px;
+    opacity: .5;
+    text-align: center;
+}
+
+.input__box::placeholder {
+    color: var(--botao-color);
+    /* padding-left: 3rem; */
+    font-size: 16px;
+
+}
+
+.login__botao {
+    text-decoration: none;
+    background-color: var(--botao-color);
+    padding: 16px 128px;
+    border-radius: 25px;
+    color: #ffffff;
+    margin-bottom: 18rem;
+    font-weight: 700;
+    font-size: 24px;
+    transition: ease-in-out .5s;
+}
+
+.login__botao:hover {
+    background-color: #e7e7e7;
+    color: #7B5A7A;
+
+}
+
+.esqueci-senha,
+.primeiro-login {
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+}
+
+.esqueci-senha {
+    color: var(--cinza);
+}
+.esqueci-senha:hover {
+    color: var(--cinza);
+    border-bottom: 1px solid #3D3C3C;
+}
+
+.primeiro-login {
+    color: var(--botao-color);
+}
+.primeiro-login:hover {
+    border-bottom: 1px solid var(--botao-color);
+}

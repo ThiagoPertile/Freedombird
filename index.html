@@ -9,11 +9,37 @@
 
     <!-- import CSS -->
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
     <!-- fim import CSS -->
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- fim google font -->
 </head>
 
 <body>
-    <h1>hey</h1>
+    <section class="background">
+        <div class="background__img"></div>
+    </section>
+    <div class="card-background">
+        <div class="login-conteudo">
+            <img src="img/Logo.svg" alt="" class="login-conteudo__logo">
+            <div class="formularios">
+                <!-- <label for="email" class="input__legenda">Email</label> -->
+                <input type="email" id="email" placeholder="Digite seu email" class="input__box">
+            </div>
+            <div class="formularios">
+                <!-- <label for="senha" class="input__legenda">Senha</label> -->
+                <input type="password" id="senha" placeholder="Digite sua senha" class="input__box">
+            </div>
+            <a href="#" class="login__botao">Login</a>
+            <a href="#" class="esqueci-senha">Esqueceu sua senha</a>
+            <a href="#" class="primeiro-login">Entre pela primeira vez</a>
+        </div>
+    </div>
+    </div>
 </body>
 
 </html>
