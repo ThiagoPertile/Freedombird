@@ -3,3 +3,6 @@
 
 pagina de logIn da Agencia de viagens FreedomBird
 
+```
+Projeto feito para fins de estudo.
+```
